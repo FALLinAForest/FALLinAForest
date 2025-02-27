@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main() {
+  int guess;
+  std::cout << "Guess the number! \n";
+  std::cin >> guess ;
+
+  while (guess != 69){
+    std::cout << "Nope, try again!\n";
+  }
+  if (guess == 69) {
+    std::cout << "Niceeee";
+  }
+}
