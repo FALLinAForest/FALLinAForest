@@ -1,0 +1,55 @@
+#include <iostream>
+
+int main() {
+  std::cout << "Welcome to the quiz!\n";
+  std::cout << "Lets begin.\n";
+  std::cout << "Question 1: What is the name of the god of silence who was a combination of both Greek and Egyptian pantheon?\n";
+  std::cout << "is it\n";
+  std::cout << " 1)Hippocrates\n 2)Harpocrates\n 3)Thoth\n 4)Cricetes\n";
+  std::cout << "Type your answer here: ";
+  double answer1;
+  std::cin >> answer1;
+
+  if (answer1 == 2) {
+    std::cout << "Correct! Harpocrates is the answer";
+  }
+  else {
+    std::cout << "Nope, sorry! The answer was 2, Harpocrates\n";
+  }
+  std::cout << "Next question!\n\n";
+  std::cout << "--\n";
+  std::cout << "What is the scientific name for the Thai Constellation Monstera?\n";
+  std::cout << "1) Monstera Thaius Constellus\n";
+  std::cout << "2) Philodendron Deliciosa\n";
+  std::cout << "3) Monstera Deliciosa Thai Constellation\n";
+  std::cout << "4) Zamicoculous Zamifolia\n";
+  int answer2;
+  std::cout << "What do you think? \n";
+  std::cin >> answer2;
+
+  if (answer2 == 3){
+    std::cout << "Correct! Great job!";
+  }
+  else {
+    std::cout << "Ah well, you'll get them next time. The correct answer is Monstera Deliciosa Thai Constellation!\n";
+  }
+  std::cout << "Alright, last question!!\n";
+  std::cout << "What should I be doing right now?\n";
+  std::cout << "1) Sleeping\n";
+  std::cout << "2) Working on World History notes\n";
+  std::cout << "3) Doing physics\n";
+  std::cout << "4) Doing nothing\n";
+  int answer3;
+  std::cout << "Answer here: \n";
+  std::cin >> answer3 ;
+
+  if (answer3 == 2){
+    std::cout << "Yeah, you're right.\n";
+  }
+  else if (answer3 == 1){
+    std::cout << "Haha I wish\n";
+  }
+  else {
+    std::cout << "nah sorry";
+  }
+}
